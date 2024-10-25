@@ -77,7 +77,7 @@ When a battle starts, the map switches to the Battlefield view.
 
 Rosalia's army units will appear on the left side of the battlefield and the demon's army will appear on the right side.
 
-You can move Rosalina's 🗡️ Pikeman (1), ⚔️ Swordsman (2), and 👼 Angel (3) the same way you moved Rosalia's horse: click on a unit and move the mouse to an adjacent cell. Rosalia will give commands to her units and won't move during the battle (4).
+You can move Rosalia's 🗡️ Pikeman (1), ⚔️ Swordsman (2), and 👼 Angel (3) the same way you moved Rosalia's horse: click on a unit and move the mouse to an adjacent cell. Rosalia will give commands to her units and won't move during the battle (4).
 
 Demon's army units will move after your army's first 2 movements, and then every 3 movements. Demon's army movement is unpredictable, you've been warned!
 
