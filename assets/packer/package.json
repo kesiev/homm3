@@ -1,0 +1,15 @@
+{
+    "name": "homm3",
+    "version": "0.0.1",
+    "description": "The classic Heroes of Micro & Moji 1 kb strategy game. ;)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/homm3/homm3.git"
+    },
+    "dependencies": {
+        "terser": ">=5.31.0"
+    },
+    "author": "KesieV",
+    "homepage": "https://github.com/homm3/homm3.git",
+    "license": "MIT"
+}
