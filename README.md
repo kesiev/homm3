@@ -28,22 +28,37 @@ I've found HOMM3 the perfect example: let's celebrate changing ideas, being wron
     <p>There even are some kind of turn-based battles on a hex map, with demons, dragons, angels, and your (unuseful) horse on the top left!</p>
 </div>
 
-I've used no compression, so the game code is readable and printable. You can print it on a T-shirt and use it as an emergency game if you feel the urge of a horse and an army running around a hex board.
+I've used no compression, so the game code is readable and printable...
 
 ```
-<canvas id=C><script>N=Math.random,S="🟩,🗡️,⚔️,👼,🐴,⌛,🌾,⛰️,💎,🐲,👹,😈,🟫".split`,`
-,U=S[H="map"](((d,t)=>L=t?t%2+1:4)),(B=d=>{A=Array(Z).fill(M[0]=I=P=0),U[H](((d,t)=>{A[99-t]
-=[0,9,G,11][4*N(A[t]=d)|0]})),F=(T=!T)?A:M})(F=M=Array(Z=100).fill(G=10)[H]((d=>N(T=D=55)>.5
-&&[6,7,8,11][4*N(O=[Z,0,0,0])|0]))),( C.onclick=C.onmousemove=e=> {t=z=e.offsetY,d=F[p=(x=e.
-offsetX/D|0)*G+(y=(z-(x%2?G:30))/D|0)],p&&(e.type[6]?P&&P-p&&(d<9? (d>4&&(O[d-5]+=L,d=0),F[p
-]=F[P], F[P]=d):d>8&&(F[p]=(d+1)%12,T?(O[0]+=d,F[p]&&F[P]--):B()),O[b=P=0]-=L,t=I=(I+1)%3):d
-&&d<5?P=p:!T&&y>G&&(y>11?O[H]((d=>z&=d>=L))&&z&&(O=O[H]((d=>d-L)),L++):O[r=x/4|0]*r&&(O[r]--
-,U.push(r)))),u=[],A[H](((p,e)=>{p>8&&N(v=A[d=e-G+2*N(b=1)|0])-.3&&d&!t&&(v&&v<5?--A[d]&&(A[
-e]=( A[e]+1)%12):( A[d]=p,A[e]=0)),p&&p<5&&u.push(p)})),b|| B(U=u),C.width=C.height=900,X=C.
-getContext`2d`,X.font="50px A",F[H](((d,t)=>X[E="fillText"](S[d||12*T],(x=t/G|0)*D,t%G*D+(x%
-2?D:77)+(t&&t-P&&9)))),O[H](((d,t)=>X[E](S[t+5]+O[t],t*D*4,680))),X[E]("🏰".repeat(L),0,750)
-,U[H](((d,t)=>X[E](S[d],30*t,820)))})(M[D]=4)</script><!--    Heroes of Micro & Moji III -->
+<canvas id=C><!-- H O M M 3 --><script>N=Math.random,S=
+"🟩,🗡️,⚔️,👼,🐴,⌛,🌾,⛰️,💎,🐲,👹,😈,🟫".split`,`
+,U=S[H="map"](((d,t)=> L=t?t%2+1:4)),(B=d=>{A=Array(Z).
+fill(M[0]=I=P=0),U[H](((d,t)=>{A[99-t]=[0,9,G,11][4*N(
+A[t]=d)|0]})),F=(T=!T)?A:M})(F= M=Array(Z=100).fill(G=
+10)[H]((d=>N(T=D=55)>.5&&[6,7,8,11][4*N(O=[Z,0,0,0])|0
+]))),(C.onclick=C.onmousemove=e=>{t=z=e.offsetY,d=F[p=
+(x=e.offsetX/D|0)*G+(y=(z-(x%2?G:30))/D|0)],p&&(e.type
+[6]?P&&P-p&&(d<9?(d>4&&(O[d-5]+=L,d=0),F[p]=F[P],F[P]=
+d):d>8&&(F[p]=(d+1)%12,T?(O[0]+=d,F[p]&&F[P]--):B()),O
+[b=P=0]-=L,t=I=(I+1)%3):d&&d<5?P=p:!T&&y>G&&(y>11?O[H]
+((d=>z&=d>=L))&&z&&(O=O[H]((d=>d-L)),L++):O[r=x/4|0]*r
+&&(O[r]--,U.push(r)))),u=[],A[H](((p,e)=>{p>8&&N(v=A[d
+=e-G+2*N(b=1)|0])-.3&&d&!t&&(v&&v<5?--A[d]&&(A[e]=(A[e
+]+1)%12):(A[d]=p,A[e]=0)),p&&p<5&&u.push(p)})),b||B(U=
+u),C.width=C.height=900,X=C.getContext`2d`,X.font="5"+
+"0px A",F[H](((d,t)=>X[E="fillText"](S[d||12*T],(x=t/G
+|0)*D,t%G*D+(x%2?D:77)+(t&&t-P&&9)))),O[H](((d,t)=>X[E
+](S[t+5]+O[t], t*D*4,680))),X[E]("🏰".repeat(L),0,750)
+,U[H](((d,t)=>X[E](S[d],30*t,820)))})(M[D]=4)</script>
 ```
+
+...so you can print it on a nerdy T-shirt and use it as an emergency game if you feel the urge of a horse and an army running around a hex board.
+
+<div align="center" style="margin:60px 0">
+    <p><img src="markdown/tshirts.png"></p>
+    <p>You can make your own template or use the ones in the <tt>assets/tshirt</tt> directory.</p>
+</div>
 
 ## Game guide
 
